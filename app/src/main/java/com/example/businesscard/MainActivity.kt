@@ -103,7 +103,7 @@ fun ContactInfo() {
         ) {
             Icon(
                 imageVector = Icons.Default.Person,
-                contentDescription = "Instagram Account",
+                contentDescription = "Instagram Profile",
                 tint = Color(0xFF3ddc84)
             )
             Spacer(
