@@ -92,13 +92,13 @@ fun ContactInfo() {
         horizontalAlignment = Alignment.CenterHorizontally,
         modifier = Modifier
             .fillMaxWidth()
-            .padding(top = 670.dp)
+            .padding(top = 620.dp)
             .padding(bottom = 30.dp)
     ) {
         Row (
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(start = 95.dp)
+                .padding(start = 55.dp)
                 .padding(bottom = 10.dp)
         ) {
             Icon(
@@ -119,7 +119,7 @@ fun ContactInfo() {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(start = 95.dp)
+                .padding(start = 55.dp)
                 .padding(bottom = 10.dp)
         ) {
             Icon(
@@ -132,7 +132,7 @@ fun ContactInfo() {
                     .width(20.dp)
             )
             Text(
-                text = "imeldamare346@gmail.com",
+                text = stringResource(R.string.gmail_contact),
                 fontFamily = FontFamily.SansSerif,
                 color = Color.White
             )
@@ -140,7 +140,7 @@ fun ContactInfo() {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(start = 95.dp)
+                .padding(start = 55.dp)
         ) {
             Icon(
                 imageVector = Icons.Default.Info,
