@@ -95,7 +95,7 @@ fun ContactInfo() {
             .padding(top = 620.dp)
             .padding(bottom = 30.dp)
     ) {
-        Row (
+        Row (//instagram profile
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(start = 55.dp)
@@ -103,7 +103,7 @@ fun ContactInfo() {
         ) {
             Icon(
                 imageVector = Icons.Default.Person,
-                contentDescription = "Instagram Profile",
+                contentDescription = null,
                 tint = Color(0xFF3ddc84)
             )
             Spacer(
@@ -116,7 +116,7 @@ fun ContactInfo() {
                 color = Color.White
             )
         }
-        Row(
+        Row(//email
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(start = 55.dp)
@@ -124,7 +124,7 @@ fun ContactInfo() {
         ) {
             Icon(
                 imageVector = Icons.Default.Email,
-                contentDescription = "Email",
+                contentDescription = null,
                 tint = Color(0xFF3ddc84)
             )
             Spacer(
@@ -137,14 +137,14 @@ fun ContactInfo() {
                 color = Color.White
             )
         }
-        Row(
+        Row(//GitHub profile
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(start = 55.dp)
         ) {
             Icon(
                 imageVector = Icons.Default.Info,
-                contentDescription = "GitHub Profile",
+                contentDescription = null,
                 tint = Color(0xFF3ddc84)
             )
             Spacer(
